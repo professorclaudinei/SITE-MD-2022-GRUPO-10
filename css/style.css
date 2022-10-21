@@ -34,9 +34,9 @@
 
 
 
-.galeria-barber .foto:nth-of-type(2n+0), 
-.galeria-barber .foto { width:23.5%; margin-right:2%; margin-bottom:2%; }
-.galeria-barber .foto:nth-of-type(4n+0) { margin-right:0; }
+.galeria .foto:nth-of-type(2n+0), 
+.galeria .foto { width:23.5%; margin-right:2%; margin-bottom:2%; }
+.galeria .foto:nth-of-type(4n+0) { margin-right:0; }
 
 
 
