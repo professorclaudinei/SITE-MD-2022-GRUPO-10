@@ -41,13 +41,13 @@
     display: flex;
     justify-content: center;
 }
-.imagens {
+.uploads {
   width: 200px;
   margin: 10px;
   position: relative;
   text-align: center;
 }
-.imagens::after {
+.uploads::after {
   content: attr(data-title); /* estilo que coloco a legenda no lugar */
   position: absolute;
   width: 100%;
