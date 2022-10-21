@@ -32,6 +32,35 @@
 
 .box-artigo   { width:100%; float:left; padding:1em; }
 
+
+
+
+
+
+.holder {
+    display: flex;
+    justify-content: center;
+}
+.imagens {
+  width: 200px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+}
+.imagens::after {
+  content: attr(data-title); /* estilo que coloco a legenda no lugar */
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  left: 0;
+}
+
+
+
+
+
+
+
 /*Seu Download*/
 .section-seu-download          { padding:10px 0px; background-color:#f4f4f4; }
 .section-seu-download .content { float:left; padding:1em 0; }
