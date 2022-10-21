@@ -55,7 +55,17 @@
   left: 0;
 }
 
+<div class="holder">
 
+  <div class="imagens" data-title="legenda # 1">
+    <img src="http://placecage.com/199/100" alt="">
+  </div>
+
+  <div class="imagens" data-title="legenda # 2">
+    <img src="http://placecage.com/201/100" alt="">
+  </div>
+
+</div>
 
 
 
