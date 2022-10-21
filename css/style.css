@@ -34,22 +34,11 @@
 
 
 
+.galeria-barber .foto:nth-of-type(2n+0), 
+.galeria-barber .foto { width:23.5%; margin-right:2%; margin-bottom:2%; }
+.galeria-barber .foto:nth-of-type(4n+0) { margin-right:0; }
 
 
-.coluna{
-  float: left;
-  width: 33.33%;
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-}
 
 
 
